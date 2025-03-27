@@ -1,4 +1,8 @@
 import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Hero from "../sections/Hero";
+import Main from "../sections/Main";
+import Slider from "../sections/Slider";
 
 export default function Home() {
   return (

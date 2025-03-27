@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const Card() => {
+const Slider() => {
     return(
         <div>
-
+        
         </div>
     );
 };
 
-export default Card;
+export default Slider;

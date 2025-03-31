@@ -1,10 +1,9 @@
 import React from 'react';
-import { useState } from 'react';
 
-const Hero() => {
+const Hero: React.FC = () => {
     return(
-        <div>
-        
+        <div className = "">
+
         </div>
     );
 };

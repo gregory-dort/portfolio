@@ -1,10 +1,9 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
-const Main() => {
+const Main: React.FC = () => {
     return(
-        <div>
-        
+        <div className = "">
+
         </div>
     );
 };

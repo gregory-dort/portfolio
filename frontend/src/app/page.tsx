@@ -1,8 +1,6 @@
 import Image from "next/image";
-import Navbar from "../components/Navbar";
-import Hero from "../sections/Hero";
-import Main from "../sections/Main";
-import Slider from "../sections/Slider";
+import { Card, Navbar } from "./components";
+import { Hero, Main, Slider } from "./sections";
 
 export default function Home() {
   return (

@@ -1,10 +1,9 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
-const Navbar() => {
+const Navbar: React.FC = () => {
     return(
-        <div>
-        
+        <div className = "p-4 bg-blue-600 mb-6 flex justify-between items-center">
+
         </div>
     );
 };

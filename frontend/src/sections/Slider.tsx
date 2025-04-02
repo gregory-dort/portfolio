@@ -1,10 +1,9 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
-const Slider() => {
+const Slider: React.FC =() => {
     return(
         <div>
-        
+            
         </div>
     );
 };

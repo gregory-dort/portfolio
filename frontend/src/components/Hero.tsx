@@ -2,13 +2,15 @@
 import React from 'react';
 import Image from "next/image";
 
-
 const Hero: React.FC = () => {
     return(
         <section className = "flex flex-col md:flex-row items-center justify-between px-10 py-20 bg-gray-900 text-white">
             {/* About Me Left Side */}
             <div className = "md:w-1/2 text-center">
                 <h1 className = "text-4xl font-bold mb-4">Hi, My name is Greg!</h1>
+                <span className = "text-xl mb-4 shadow-lg">
+                    I'm a Software Engineer, Problem Solver, and Tech Enthusiast
+                </span>
             </div>
 
             {/* About Me Right Side */}

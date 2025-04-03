@@ -30,6 +30,12 @@ const Navbar: React.FC = () => {
                         Interests
                     </button>
                 </li>
+                <li>
+                    <button onClick={() => scrollToSection('contact')} className = "px-4 py-2 bg-gray-900 rounded-lg text-white hover:text-violet-400 shadow-lg text-lg transition duration-200">
+                        Contact
+                    </button>
+                </li>
+                
             </ul>
         </nav>
     );

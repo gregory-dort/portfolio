@@ -1,10 +1,47 @@
 "use client"
-import React from 'react';
+import React, { useState } from 'react';
 
 const Slider: React.FC =() => {
+    const [activeTab, setActiveTab] = useState('');
+
     return(
-        <div>
-            
+        <div className = "p-6 bg-gray-400 rounded-lg shadow-lg">
+            <div className = "flex flex-row items-center justify-center mb-4">
+
+                {/* Education Experience Button */}
+                <button 
+                className = {`px-4 py-2 mx-2 rounded-lg ${activeTab === 'education' ? 'bg-violet-400' : 'bg-gray-600'}`}
+                onClick = {() => setActiveTab('education')}>
+                    Educational Experience
+                </button>
+
+                {/* Vertical Line */}
+                <div className = "w-px h-10 bg-gray-600 mx-4"></div>
+
+                {/* Professional Experience Button */}
+                <button 
+                className = {`px-4 py-2 mx-2 rounded-lg ${activeTab === 'experience' ? 'bg-violet-400' : 'bg-gray-600'}`}
+                onClick = {() => setActiveTab('experience')}>
+                    Professional Experience
+                </button>
+            </div>
+
+            <div className = "text-center">
+                    {activeTab === 'education' ? (
+                        <div>
+                            <h2 className = "text-2xl font-bold">Education</h2>
+                            <p>Bachelor's in Information Technology from Sacred Heart University</p>
+                            <p>Minor in Computer Science</p>
+                            <p>Relevant Coursework: Software Engineering, Human Computer Interaction, Database Design & Management, Professional Web Design </p>
+                        </div>
+                    ) : (
+                        <div>
+                            <h2 className = "text-2xl font-bold">Professional Experience</h2>
+                            <p>Level 1 Service Technician at Sacred Heart University</p>
+                            <p>Consultation Agent at Geek Squad | Best Buy</p>
+                        </div>
+                    )}
+                </div>
         </div>
     );
 };

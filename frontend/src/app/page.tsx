@@ -1,4 +1,4 @@
-import { Navbar, Hero, Projects, Slider, Hobbies } from "../components";
+import { Navbar, Hero, Projects, Slider, Interests, Contact } from "../components";
 
 const Home = () => {
   return (
@@ -21,7 +21,11 @@ const Home = () => {
       </section>
 
       <section id = "interests" className = "p-10">
-        <Hobbies />
+        <Interests />
+      </section>
+
+      <section id = "contact" className = "p-10">
+        <Contact />
       </section>
 
     </div>

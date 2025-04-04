@@ -1,4 +1,4 @@
-import { Navbar, Hero, Projects, Slider, Interests, Contact } from "../components";
+import { Navbar, Hero, Projects, Slider, Interests, Contact, IconBanner } from "../components";
 
 const Home = () => {
   return (
@@ -10,6 +10,10 @@ const Home = () => {
       {/* Creating different sections for website */}
       <section id = "hero" className = "p-10">
         <Hero />
+      </section>
+
+      <section id = "banner" className = "p-10">
+        <IconBanner />
       </section>
 
       <section id = "slider" className = "p-10">

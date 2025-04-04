@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ title, role, description, image, link }) =>
             <h2 className = "text-2xl text-white font-bold mb-2">{title}</h2>
             <h3 className = "text-2xl text-white font-semmibold mb-2">{role}</h3>
             {description &&<p className = "text-lg text-white font-semibold mb-4">{description}</p>}
-            <a href = {link} className = "text-white hover:text-violet-400 font-semibold">Link to Project</a>
+            <a href = {link} className = "text-white hover:text-sky-200 font-semibold">Link to Project</a>
         </div>
     );
 };

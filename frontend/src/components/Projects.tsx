@@ -22,7 +22,7 @@ const projectData = [
 
 const Projects: React.FC = () => {
     return (
-        <div className = "px-10 py-20 bg-violet-400">
+        <div className = "px-10 py-20 bg-sky-200">
             <h1 className = "text-4xl font-bold mb-4 text-center text-white">Projects</h1>
 
             {/* Grid Section for Project Display */}

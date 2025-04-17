@@ -6,15 +6,14 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
     return(
-        <section className = "flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-gradient-to-b from-sky-200 to-sky-700 text-white">
+        <section className = "flex flex-col md:flex-row w-min-screen items-center justify-between mt-10 py-20 bg-gradient-to-b from-violet-200 to-violet-700 text-white">
             {/* Background Grid Pattern */}
 
             {/* About Me Content */}
-
             {/* About Me Left Side */}
             <div className = "md:w-1/2 text-center">
                 <h1 className = "text-4xl font-bold mb-4">Hi, My Name Is Greg!</h1>
-                <span className = "text-xl mb-4 shadow-lg">
+                <span className = "text-2xl font-semibold mb-4">
                     I'm a Software Engineer, Problem Solver, and Tech Enthusiast
                 </span>
 
@@ -23,13 +22,13 @@ const Hero: React.FC = () => {
                     <span className = "text-xl text-white font-semibold">Connect with Me!</span>
                     <div className = "flex flex-row gap-8 text-3xl">
                         <a href="https://github.com/gregory-dort" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <FaGithub className = "hover:text-sky-700 trasition duration-300 hover:scale-110 shadow-lg" />
+                            <FaGithub className = "hover:text-green-700 trasition duration-300 hover:scale-110 shadow-lg" />
                         </a>
                         <a href="https://www.linkedin.com/in/gregory-dort-776503218/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <FaLinkedin className = "hover:text-sky-700 transition duration-300 hover:scale-110 shadow-lg" />
+                            <FaLinkedin className = "hover:text-green-700 transition duration-300 hover:scale-110 shadow-lg" />
                         </a>
                         <a href="https://www.instagram.com/gdort07/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                            <FaInstagram className = "hover:text-sky-700 transition duration-300 hover:scale-110 shadow-lg" />
+                            <FaInstagram className = "hover:text-green-700 transition duration-300 hover:scale-110 shadow-lg" />
                         </a>
                     </div>
                 </div>

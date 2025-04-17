@@ -15,14 +15,14 @@ const projectData = [
         title: "PrepNGo - Recipe Finder",
         role: "Role: Frontend Developer / UI Designer",
         description: "PrepNGo is a Meal Planning Application utilizing webscraping to find recipes based on ingredients currently at a user's disposal.",
-        image: "",
+        image: "/PrepNGo.jpeg",
         link: "https://github.com/jodanelysee/HACK-RU-2025"
     }
 ]
 
 const Projects: React.FC = () => {
     return (
-        <div className = "px-10 py-20 bg-sky-200">
+        <div className = "px-10 py-20 bg-gradient-to-tr from-green-200 to-violet-400">
             <h1 className = "text-4xl font-bold mb-4 text-center text-white">Projects</h1>
 
             {/* Grid Section for Project Display */}

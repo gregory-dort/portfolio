@@ -22,15 +22,14 @@ const techStack = [
 
 const IconBanner: React.FC = () => {
     return (
-        <section className = "py-6 bg-sky-200 text-white">
+        <section className = "py-6 bg-gradient-to-tl from-green-200 to-violet-400 text-white">
             <h2 className = "text-center text-3xl font-bold mb-8">Technologies I Have Worked With</h2>
 
             <div className = "flex flex-wrap justify-center gap-6 px-4">
                 {techStack.map(({ icon: Icon, name }, index) => (
                     <div
                     key = {index}
-                    className = "flex flex-col items-center text-center hover:scale-110 hover:text-sky-700 transition-transform duration-300"
-                    >
+                    className = "flex flex-col items-center text-center hover:scale-110 hover:text-green-700 transition-transform duration-300">
                         <Icon size = {48} />
                         <span className = "mt-2 text-sm">{name}</span>
                     </div>
